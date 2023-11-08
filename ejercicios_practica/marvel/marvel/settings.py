@@ -42,7 +42,7 @@ BASE_APPS = [
 
 # Acá van las apps de 3ros que necesitamos agregar
 # para que Django las encuentre.
-THIRD_APPS = []
+THIRD_APPS = ['rest_framework']
 
 # Acá van las apps que creamos nosotros.
 LOCAL_APPS = ['e_commerce']
